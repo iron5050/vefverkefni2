@@ -3,18 +3,18 @@
   <head>
     <meta charset="utf-8">
     <title>Home</title>
-    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="{{ /assets/css/styles.css | relative_url }}">
   </head>
   <body>
     <nav>
         
-          <a href="/" class="current">Home</a>
+          <a href="{{ / | relative_url }}" class="current">Home</a>
         
-          <a href="/about.html" >About</a>
+          <a href="{{ /about.html | relative_url }}" >About</a>
         
-          <a href="/blog.html" >Blog</a>
+          <a href="{{ /blog.html | relative_url }}" >Blog</a>
         
-          <a href="/staff" >Staff</a>
+          <a href="{{ /staff | relative_url }}" >Staff</a>
         
 </nav>
     <!doctype html>
